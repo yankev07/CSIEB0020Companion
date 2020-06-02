@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/nestedScrollView"
+    android:background="@color/colorPrimary"
+    android:padding="20dp"
+    tools:context="com.ndhuproject.csieb0020companion.tutorials.TutorialGettingStarted">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/tutorial_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Getting Started"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/grey_soft"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+            android:padding="15dp" />
+
+        <TextView
+            android:id="@+id/subtitle_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is Programming ?"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:padding="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/getting_started_one"
+            android:padding="18dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/getting_started_two"
+            android:padding="18dp"/>
+
+
+        <TextView
+            android:id="@+id/subtitle_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Most Popular Programming Languages"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:padding="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/getting_started_three"
+            android:padding="18dp"/>
+
+        <TextView
+            android:id="@+id/subtitle_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Some Useful Programming tools"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:padding="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/getting_started_four"
+            android:padding="18dp"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="648dp"
+            android:src="@drawable/icon_programming_tools"/>
+
+        <TextView
+            android:id="@+id/subtitle_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to make the most of this App ?"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:padding="18dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/getting_started_five"
+            android:padding="18dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/getting_started_six"/>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</android.support.v4.widget.NestedScrollView>

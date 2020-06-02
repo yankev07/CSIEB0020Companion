@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/nestedScrollView"
+    android:background="@color/colorPrimary"
+    android:padding="20dp"
+    tools:context="com.ndhuproject.csieb0020companion.tutorials.TutorialGettingStarted">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/tutorial_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Integers Sorting"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/grey_soft"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+            android:padding="15dp" />
+
+        <TextView
+            android:id="@+id/subtitle_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:padding="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/integer_sorting_one"
+            android:padding="18dp"/>
+
+        <TextView
+            android:id="@+id/subtitle_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Code Structure"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:padding="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/integer_sorting_two"
+            android:padding="18dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sorting_example"/>
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="406dp"
+            android:src="@drawable/code_sorting"/>
+
+
+        <TextView
+            android:id="@+id/subtitle_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Conclusion and Remarks"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:padding="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/integer_sorting_three"
+            android:padding="18dp"/>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</android.support.v4.widget.NestedScrollView>
